@@ -1,8 +1,5 @@
 
 
-.custom-input-1 input {
-  width: 150px;
-}
 
 .container {
 
@@ -14,4 +11,9 @@
   border: 3px solid #ccc;
   padding: 10px;
 }
+
+.btn {
+    width: 150px
+}
+
 
