@@ -5,8 +5,10 @@
 
   justify-content: center;
   align-items: center;
-  height: 100vh; /* set the height of the container to the height of the viewport */
-  margin-top: 25px;
+  min-height: 750px; /* set the height of the container to the height of the viewport */
+  margin-top: 50px;
+
+
 
   border: 3px solid #ccc;
   padding: 10px;
@@ -16,4 +18,13 @@
     width: 150px
 }
 
+#firmwareVersion{
+    width: 150px
+}
+.alert {
+  position: absolute; /* add position absolute to the alert */
+  top: 0; /* set the top position to 0 */
+  left: 0; /* set the left position to 0 */
+  right: 0; /* set the right position to 0 */
 
+}
