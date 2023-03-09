@@ -10,8 +10,9 @@
 
 
 
-  border: 3px solid #ccc;
+  border: 3px solid #e60000;
   padding: 10px;
+
 }
 
 .btn {
@@ -26,5 +27,36 @@
   top: 0; /* set the top position to 0 */
   left: 0; /* set the left position to 0 */
   right: 0; /* set the right position to 0 */
+  display: none;
 
+}
+
+/* Set background color to #ffffff */
+body {
+background-color: #ffffff;
+}
+
+/* Set text color to #e60000 */
+h1,hr, h2, h3, p {
+color: #e60000;
+}
+
+/* Set button background color to #e60000 */
+.btn-primary {
+background-color: #e60000;
+}
+
+/* Set button text color to #ffffff */
+.btn-primary {
+color: #ffffff;
+}
+
+/* Set navbar background color to #e60000 */
+.navbar {
+background-color: #e60000;
+}
+
+/* Set navbar text color to #ffffff */
+.navbar-nav .nav-link {
+color: #ffffff;
 }
